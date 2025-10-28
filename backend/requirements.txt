@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+redis
+pydantic
+pydantic-settings
+sentence-transformers
+faiss-cpu
+langchain
+google-generativeai
+python-dotenv

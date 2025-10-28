@@ -1,0 +1,9 @@
+redis
+sqlalchemy
+psycopg2-binary
+sentence-transformers
+faiss-cpu
+langchain
+beautifulsoup4
+requests
+python-dotenv
