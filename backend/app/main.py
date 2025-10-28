@@ -31,7 +31,7 @@ except Exception as e:
 # --- Configure Gemini ---
 try:
     genai.configure(api_key=settings.GEMINI_API_KEY)
-    generation_model = genai.GenerativeModel('gemini-1.5-flash')
+    generation_model = genai.GenerativeModel('gemini-2.5-flash')
     log.info("Gemini model configured.")
 except Exception as e:
     log.error(f"Failed to configure Gemini: {e}")
@@ -162,3 +162,4 @@ def health_check(db: Session = Depends(database.get_db)):
         log.warning(f"Database health check failed: {e}")
 
     return models.HealthResponse(api="ok", redis=redis_status, database=db_status)
+
