@@ -267,4 +267,4 @@ streamlit run app.py
 
 ## Demo Video
 
-[Insert your demo link here]
+[[Project Demo](https://drive.google.com/file/d/114dJzQ9eivUqAnllD4IQHqT5AlTqfsQ3/view?usp=sharing)]
