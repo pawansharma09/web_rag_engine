@@ -1,0 +1,20 @@
+# API & Web
+fastapi
+uvicorn[standard]
+streamlit
+
+# Database & Queue
+sqlmodel
+redis
+
+# ML & Processing
+sentence-transformers
+faiss-cpu
+langchain
+beautifulsoup4
+google-generativeai
+
+# Utilities
+requests
+python-dotenv
+numpy
